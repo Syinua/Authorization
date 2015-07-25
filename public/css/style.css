@@ -1,0 +1,17 @@
+#content{
+	margin-top: 15%;
+	padding: 20px;
+	border: solid 1px #dedede;
+	min-height: 300px;
+}
+.error{
+	color: red;
+	margin-left: 20px;
+}
+.small{
+	font-size: 12px;
+}
+
+.button-primary {
+	float: right;
+}

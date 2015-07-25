@@ -1,0 +1,19 @@
+{% extends 'layout.twig' %}
+{% block body %}
+    <h3>Create an account</h3>
+    <p class="error">{{ error }}</p>
+    <form action="/registration" method="post">
+        <div>
+            <label for="txtEmail">Email Address: <span class="error">{{ email_error }}</span></label>
+            <input id="txtEmail" class="u-full-width" type="text" name="email" value="{{ email_value }}"/>
+        </div>
+        <div>
+            <label for="txtString">Password: <span class="error">{{ password_error }}</span></label>
+            <input id="txtString" class="u-full-width" type="text" name="password" />
+        </div>
+        <div>
+            <button class="button-primary" type="submit">Create Account</button>
+        </div>
+    </form>
+    <a href="/">Return</a>
+{% endblock %}

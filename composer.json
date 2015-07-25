@@ -1,0 +1,23 @@
+{
+    "name": "Authorization on Slim framework",
+    "description": "Test task for PHP Back-End developer",
+    "authors": [
+        {
+            "name": "Evgeniy Cheremisov",
+            "email": "syinua@gmail.com",
+            "homepage": "http://www.syinua.com/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog": "1.*",
+        "slim/slim": "2.*",
+        "slim/views": "0.*",
+        "twig/twig": "1.*"
+    }
+}

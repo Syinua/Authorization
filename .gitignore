@@ -1,0 +1,5 @@
+.idea/*
+templates/cache/*
+logs/*
+vendor/*
+composer.lock
